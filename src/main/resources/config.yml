@@ -1,0 +1,39 @@
+# This is the configuration file for the Cyanide network core plugin.
+# Refer to <insert GitHub issue tracker URL> for help and support. Open an issue and you will be replied to ASAP.
+
+####################################################################################################################
+# ------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------ａｅｓｔｈｅｔｉｃｓ ----------------------------------------------------------
+
+# What do you want Cyanide's prefix to be? Purely for aesthetic purposes.
+prefix: '&c&lCyanide: '
+
+# Let's configure what you want messages to look like
+messages:
+  # Message sent to user when they do not have permission to perform a command.
+  nopermission: '&4You do not have permission to perform this command.'
+
+  # Message sent to user when they try to interact with a whitelisted server.
+  whitelisted: '&c&lSorry! &cThis server is currently whitelisted. Please come back later.'
+
+  # Message sent to a user when they try to chat while it's currently locked.
+  chatlocked: '&c&lSorry! &cThe chat is currently locked. Please try again later!'
+
+  # Message sent to a user when try to chat too quickly.
+  slowchat: '&c&lSorry! &cLooks like you are typing way too fast for our systems, please slow down1'
+
+  # Message sent to a user when something goes internally bonkers with databases.
+  databaseerror: '&c&lSorry! &cSomething went wrong internally.'
+
+  # Message sent to a user when they try to perform a command that doesn't exist.
+  commandnotfound: '&fUnknown command.'
+
+  ## Message sent to a user when they try to set a player's rank to one that doesn't exist.
+  invalidrank: '&cSorry! Looks like that rank does not exist :c'
+
+  ## Message sent to a user when they try to interact with a player that doesn't exist.
+  invalidplayer: '&cSorry! Looks like that player does not exist :c'
+
+####################################################################################################################
+# ------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------ｍｅｓｓａｇｅｓ----------------------------------------------------------
